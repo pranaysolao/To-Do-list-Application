@@ -1,0 +1,102 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1604011237320-8e0506614fdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8NXp6bXFqc2NOeFV8fGVufDB8fHx8&auto=format&fit=crop&w=420&q=60');
+    background-repeat: no-repeat;
+    background-size: 280%;
+    background-position: -400px 0px;
+}
+
+.header {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+    /* font-family: sans-serif; */
+}
+
+.container {
+    background-color: #b2d5e6;
+    width: 995px;
+    padding: 39px;
+    text-align: center;
+    margin-left: 17%;
+    margin-top: 71px;
+    border-radius: 15px;
+}
+
+input {
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(42, 102, 102);
+    outline: none;
+    font-size: 19px;
+}
+
+
+/* span {
+    font-size: 20px;
+} */
+
+li span {
+    font-size: 21px;
+    position: absolute;
+    left: 393px;
+}
+
+#add-task-btn {
+    width: 95px;
+    height: 41px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(234, 230, 230);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+.edit-task {
+    width: 60px;
+    height: 41px;
+    background-color: #a68da3;
+    color: rgb(20, 19, 19);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    font-size: 19px;
+    position: relative;
+    left: 173px;
+    margin: 5px;
+}
+
+.delete-task {
+    width: 60px;
+    height: 41px;
+    background-color: #a68da3;
+    color: rgb(20, 19, 19);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    font-size: 19px;
+    position: relative;
+    left: 180px;
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+.completed {
+    background-color: rgb(229, 2, 55);
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.complete-task {
+    position: relative;
+    left: 125px;
+    font-size: 21px;
+}
